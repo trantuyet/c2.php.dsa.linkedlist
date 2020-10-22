@@ -17,6 +17,7 @@ $studentManager->insertFirstNode($student);
 $studentManager->insertFirstNode($student2);
 $studentManager->insertLastNode($student3);
 //$studentManager->insertLastNode($student4);
-$studentManager->insert(1,$student4);
+//$studentManager->insert(1,$student4);
+$studentManager->remove(2);
 
 print_r($studentManager->getFirstNode());
